@@ -24,7 +24,7 @@ public class HomePage {
 
 //---------------------------------------------------------------------------
 
-    @Step("Закрывает всплываеющее окно регистрации если оно есть")
+    @Step("Закрывает всплываеющее окно регистрации, если оно есть")
     public void closeSpam(){
         if (closingTheRegistrationForm.isDisplayed()){
             closingTheRegistrationForm.click();
